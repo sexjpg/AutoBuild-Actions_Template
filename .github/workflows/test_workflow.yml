@@ -173,6 +173,7 @@ jobs:
     - name: Process Firmware
       if: env.Result == 'true' && !cancelled()
       run: |
+        echo $GITHUB_ENV
         cd openwrt
         source $GITHUB_WORKSPACE/Scripts/AutoBuild_Function.sh
         Firmware_Diy_End
