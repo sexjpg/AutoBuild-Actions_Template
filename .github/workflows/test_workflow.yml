@@ -20,7 +20,7 @@ on:
         default: ''
       Tempoary_CONFIG:
         description: '配置文件 [可选]'
-        default: ''
+        default: 'x86_64'
       Tempoary_FLAG:
         description: '固件名称后缀 [可选]'
         default: ''
